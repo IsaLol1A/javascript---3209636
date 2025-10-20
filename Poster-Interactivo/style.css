@@ -19,7 +19,6 @@
     height:50px;
     position: relative;
     left:510px;
-    right:1px;
     top:-255px;
 }
 .moneda1 img{
@@ -27,7 +26,6 @@
     height:50px;
     position: relative;
     left:555px;
-    right:1px;
     top:-309px;
 }
 
@@ -36,6 +34,114 @@
     height:50px;
     position: relative;
     left:600px;
-    right:1px;
     top:-364px;
+}
+
+.moneda3 img{
+    width:50px;
+    height:50px;
+    position: relative;
+    left:700px;
+    top:-561px;
+}
+
+.moneda4 img{
+    width:50px;
+    height:50px;
+    position: relative;
+    left:650px;
+    top:-615px;
+}
+
+.moneda5 img{
+    width:50px;
+    height:50px;
+    position: relative;
+    left:600px;
+    top:-668px;
+}
+
+
+.corazon img{
+    width:70px;
+    height:40px;
+    position: relative;
+    left:800px;
+    top:-825px;
+}
+
+.corazon1 img{
+    width:70px;
+    height:40px;
+    position: relative;
+    left:840px;
+    top:-870px;
+}
+
+.corazon2 img{
+    width:70px;
+    height:40px;
+    position: relative;
+    left:880px;
+    top:-915px;
+}
+
+.personaje img{
+    width:90px;
+    height:90px;
+    position: relative;
+    left:350px;
+    top:-601px;
+}   
+
+.nube img{
+    width:100px;
+    height:100px;
+    position: relative;
+    left:70%;
+    top:-950px;
+}
+
+.nube1 img{
+    width:100px;
+    height:100px;
+    position: relative;
+    left:25%;
+    top:-970px;
+}
+
+.nube2 img{
+    width:100px;
+    height:100px;
+    position: relative;
+    left:40%;
+    top:-1250px;
+}
+
+/*Animacion Monedas*/
+
+.saltar{
+    animation: salto 1s ease forwards
+}
+
+@keyframes salto {
+    0% {transform: translateY(0); opacity: 1;}
+
+    30% {transform: translateY(-60px);}
+
+    100% {transform: translateY(0); opacity: 0;}
+}
+
+
+/*Animacion Nubes*/
+
+.personaje img{
+    animation: moverPersonaje 4s ease infinite alternate;
+}
+
+@keyframes moverPersonaje {
+    0% {left:20%;}
+    100% {left:42%;}
+
+    
 }
