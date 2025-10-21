@@ -118,6 +118,14 @@
     top:-1250px;
 }
 
+.contador{
+    position: relative;
+    left:240px;
+    top:-1370px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
 /*Animacion Monedas*/
 
 .saltar{
@@ -134,9 +142,37 @@
 
 
 /*Animacion Nubes*/
+.nube img{
+    animation: moverNube 7s ease infinite alternate;
+}
+
+@keyframes moverNube {
+    0% {left:65%;}
+    100% {left:72%;}
+}
+
+.nube1 img{
+    animation: moverNube1 7s ease infinite alternate;
+}
+
+@keyframes moverNube1 {
+    0% {left:25%;}
+    100% {left:32%;}
+}
+
+.nube2 img{
+    animation: moverNube2 6s ease infinite alternate;
+}
+
+@keyframes moverNube2 {
+    0% {left:40%;}
+    100% {left:47%;}
+}
+
+/*Animacion Personaje*/
 
 .personaje img{
-    animation: moverPersonaje 4s ease infinite alternate;
+    animation: moverPersonaje 10s ease infinite alternate;
 }
 
 @keyframes moverPersonaje {
