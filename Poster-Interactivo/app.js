@@ -1,12 +1,12 @@
 //1. capturar variables
-const corazon = document.querySelectorAll('.oli ');
 const moneda = document.querySelectorAll('.viktor');
 const counter = document.querySelector('.contador');
+const corazon = document.querySelectorAll('.coco');
 let i = 0;
 
-console.log(corazon);
 console.log(moneda);
 console.log(counter);
+console.log(corazon);
 
 //2. crear las funciones
 
@@ -25,12 +25,10 @@ moneda.forEach(Item => {
         Item.style.display = "none";
     }, { once: true })*/
 
-corazon.forEach(Item => {
-
+coco.forEach(Item => {
     Item.addEventListener('click', () => {
-        Item.style.filter = "grayscale(1)";
-    })
-})
+        Item.style.filter = "grayscale(1 )";
+    }) })
 
 
 

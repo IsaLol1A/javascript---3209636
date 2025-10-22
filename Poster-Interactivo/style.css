@@ -124,7 +124,7 @@
     top:-1370px;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: #f8fc0d;
 }
 /*Animacion Monedas*/
 
@@ -178,6 +178,114 @@
 @keyframes moverPersonaje {
     0% {left:20%;}
     100% {left:42%;}
-
-    
 }
+
+
+/*Escenario 2*/
+
+.escenario2 img{
+    width:750px;
+    height:500px;
+    position: relative;
+    left:210px;
+    right:10px;
+    top:-900px;
+}
+
+.manzana img{
+    width:70px;
+    height:70px;
+    position: relative;
+    left:300px;
+    top:-1213px;
+}
+.manzana1 img{
+    width:70px;
+    height:70px;
+    position: relative;
+    left:350px;
+    top:-1287px;
+}
+.manzana2 img{
+    width:70px;
+    height:70px;
+    position: relative;
+    left:705px;
+    top:-1360px;
+}
+.manzana3 img{
+    width:70px;
+    height:70px;
+    position: relative;
+    left:760px;
+    top:-1435px;
+}
+.manzana4 img{
+    width:70px;
+    height:70px;
+    position: relative;
+    left:487px;
+    top:-1569px;
+}
+.manzana5 img{
+    width:70px;
+    height:70px;
+    position: relative;
+    left:533px;
+    top:-1645px;
+}
+.manzana6 img{
+    width:70px;
+    height:70px;
+    position: relative;
+    left:575px;
+    top:-1720px;
+}
+
+.personaje2 img{
+    width:70px;
+    height:80px;
+    position: relative;
+    left:520px;
+    top:-1650px;
+}
+
+.burbuja img{
+    width:80px;
+    height:80px;
+    position: relative;
+    left:800px;
+    top:-2007px;
+}
+.burbuja1 img{
+    width:90px;
+    height:95px;
+    position: relative;
+    left:236px;
+    top:-1755px;
+}
+
+.burbujaSola img{
+    width:90px;
+    height:95px;
+    position: relative;
+    left:250px;
+    top:-2150px;
+}
+.burbujaSola1 img{
+    width:90px;
+    height:95px;
+    position: relative;
+    left:700px;
+    top:-1995px;
+}
+
+.contador2{
+    position: relative;
+    left:240px;
+    top:-1990px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2652e0;
+}
+
