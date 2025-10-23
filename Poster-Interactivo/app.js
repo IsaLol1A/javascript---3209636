@@ -1,14 +1,12 @@
-//1. capturar variables
+//escenario 1
 const moneda = document.querySelectorAll('.viktor');
 const counter = document.querySelector('.contador');
-const corazon = document.querySelectorAll('.coco');
 let i = 0;
 
 console.log(moneda);
 console.log(counter);
-console.log(corazon);
 
-//2. crear las funciones
+
 
 moneda.forEach(Item => {
    // console.log("Elemento: ", Item);
@@ -32,4 +30,13 @@ coco.forEach(Item => {
 
 
 
-//3. llamar eventos
+//Escenario 2
+const manzana = document.querySelectorAll('.mamoi');
+
+console.log(manzana);
+
+manzana.forEach(Item => {
+     
+    Item.addEventListener('click', () => {
+         Item.classList.add('saltarM'); 
+    }) })

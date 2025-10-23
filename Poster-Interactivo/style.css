@@ -289,3 +289,74 @@
     color: #2652e0;
 }
 
+/*Animacion Manzanas*/
+
+.saltarM{
+    animation: salto 1s ease forwards
+}
+
+@keyframes salto {
+    0% {transform: translateY(0); opacity: 1;}
+
+    30% {transform: translateY(-60px);}
+
+    100% {transform: translateY(0); opacity: 0;}
+}
+
+
+/*Escenario 3*/
+
+.escenario3 img{
+    width:750px;
+    height:500px;
+    position: relative;
+    left:210px;
+    right:10px;
+    top:-1925px;
+}
+
+.diamante img{
+    width:50px;
+    height:50px;
+    position: relative;
+    left:300px;
+    top:-2135px;
+}
+.diamante1 img{
+    width:53px;
+    height:59px;
+    position: relative;
+    left:355px;
+    top:-2179px;
+}
+.diamante2 img{
+    width:56px;
+    height:43px;
+    position: relative;
+    left:415px;
+    top:-2210px;
+}
+.diamante3 img{
+    width:56px;
+    height:60px;
+    position: relative;
+    left:729px;
+    top:-2245px;
+}
+
+.personaje3 img{
+    width:155px;
+    height:90px;
+    position: relative;
+    left:600px;
+    top:-2595px;
+}
+
+.contador3{
+     position: relative;
+    left:240px;
+    top:-2730px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #bd891a;
+}
