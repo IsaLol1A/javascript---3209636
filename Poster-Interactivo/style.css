@@ -269,14 +269,14 @@
     width:90px;
     height:95px;
     position: relative;
-    left:250px;
+    left:350px;
     top:-2150px;
 }
 .burbujaSola1 img{
     width:90px;
     height:95px;
     position: relative;
-    left:700px;
+    left:400px;
     top:-1995px;
 }
 
@@ -288,7 +288,46 @@
     font-weight: bold;
     color: #2652e0;
 }
+/*Animacion Burbuja*/
+.burbuja img{
+    animation: moverBurbuja 7s ease infinite alternate;
+}
 
+@keyframes moverBurbuja {
+    0% {left:65%;}
+    100% {left:72%;}
+}
+
+.burbuja1 img{
+    animation: moverBurbuja1 15s ease infinite alternate;
+}
+
+@keyframes moverBurbuja1 {
+    0% {left:64%;}
+    100% {left:70%;}
+}
+.burbujaSola img{
+    animation: moverBurbujaSola 20s ease infinite alternate;
+}
+@keyframes moverBurbujaSola {
+    0% {left:20%;}
+    100% {left:30%;}
+}
+.burbujaSola1 img{
+    animation: moverBurbujaSola1 10s ease infinite alternate;
+}
+@keyframes moverBurbujaSola1 {
+    0% {left:50%;}
+    100% {left:60%;}
+}
+
+.personaje2 img{
+    animation: moverPersonaje2 5s ease infinite alternate;
+}
+@keyframes moverPersonaje2 {
+    0% {left:40%;}
+    100% {left:48%;}
+}
 /*Animacion Manzanas*/
 
 .saltarM{
@@ -352,11 +391,79 @@
     top:-2595px;
 }
 
+
 .contador3{
      position: relative;
     left:240px;
-    top:-2730px;
+    top:-3040px;
     font-size: 24px;
     font-weight: bold;
     color: #bd891a;
+}
+
+.nuve img{
+    width:100px;
+    height:100px;
+    position: relative;
+    left:250px;
+    top:-2615px;
+}
+.nuve1 img{
+    width:100px;
+    height:100px;
+    position: relative;
+    left:600px;
+    top:-2870px;
+}
+.nuve2 img{
+    width:100px;
+    height:100px;
+    position: relative;
+    left:750px;
+    top:-2750px;
+}
+/*Animacion Nube*/
+.nuve img{
+    animation: moverNuve 7s ease infinite alternate;
+}
+@keyframes moverNuve {
+    0% {left:240px;}
+    100% {left:750px;}
+}
+.nuve1 img{
+    animation: moverNuve1 7s ease infinite alternate;
+}
+@keyframes moverNuve1 {
+    0% {left:590px;}
+    100% {left:600px;}
+}
+.nuve2 img{
+    animation: moverNuve2 6s ease infinite alternate;
+}
+@keyframes moverNuve2 {
+    0% {left:750px;}
+    100% {left:800px;}
+}
+
+
+/*Animacion Personaje*/
+/*.personaje3 img{
+    animation: moverPersonaje3 8s ease infinite alternate;
+}
+@keyframes moverPersonaje3 {
+    0% {left:50%;}
+    100% {left:70%;}
+}
+
+/*Animacion Diamantes*/
+.saltarD{
+    animation: salto 1s ease forwards
+}
+
+@keyframes salto {
+    0% {transform: translateY(0); opacity: 1;}
+
+    30% {transform: translateY(-60px);}
+
+    100% {transform: translateY(0); opacity: 0;}
 }
