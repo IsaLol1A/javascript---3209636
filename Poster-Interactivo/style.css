@@ -126,6 +126,72 @@
     font-weight: bold;
     color: #f8fc0d;
 }
+
+.anterior{
+    position: relative;
+    left:135px;
+    top:-1215px;
+    width:30px;
+    height:30px;
+    border-radius:50px;
+    background-color: #000000;
+    border:none;
+    cursor: pointer;
+    margin:5px;
+    color: #ce0cff;
+    
+}
+.siguiente{
+    position: relative;
+    left:950px;
+    top:-1215px;
+    width:30px;
+    height:30px;
+    border-radius:50px;
+    background-color: #000000;
+    border:none;
+    cursor: pointer;
+    margin:5px;
+    color: #0dffdf;
+}
+
+.miniatura img{
+width:150px;
+height:80px;
+background-color: #0af5f5;
+border-radius:5px;
+position: relative;
+left:299px;
+top:-945px;
+}
+
+.miniatura1 img{
+width:150px;
+height:80px;
+background-color: #ab0af5;
+border-radius:5px;
+position: relative;
+left:510px;
+top:-1030px;
+}
+
+.miniatura2 img{
+width:150px;
+height:80px;
+background-color: #0af5f5;
+border-radius:5px;
+position: relative;
+left:720px;
+top:-1110px;
+}
+
+.activa{
+    display: block;
+}
+.escena{
+    display: none;
+}
+
 /*Animacion Monedas*/
 
 .saltar{
@@ -446,8 +512,8 @@
 }
 
 
-/*Animacion Personaje*/
-/*.personaje3 img{
+/*Animacion Personaje3*/
+.personaje3 img{
     animation: moverPersonaje3 8s ease infinite alternate;
 }
 @keyframes moverPersonaje3 {
@@ -466,4 +532,5 @@
     30% {transform: translateY(-60px);}
 
     100% {transform: translateY(0); opacity: 0;}
-}
+} 
+
