@@ -109,10 +109,10 @@ siguiente.addEventListener('click', () => {
     console.log(indice);
     mostrarEscenario(indice);
 })
-/*Funcion miniaturas
+
+//Funcion miniaturas
 miniatura.forEach(min => {
     min.addEventListener('click', () => {
         mostrarEscenario(i)
 })
-
-})*/
+})
