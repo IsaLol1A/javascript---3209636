@@ -6,13 +6,14 @@
 }
 
 
+
 .escenario img{
     width:750px;
     height:500px;
     position: relative;
     left:210px;
     right:10px;
-    top:1x;
+    top:1xp;
 }
 
 .moneda img{
@@ -128,10 +129,27 @@
     color: #f8fc0d;
 }
 
+
+.eso{
+    position: absolute;
+    top:200px;
+    left: 130px;
+   
+}
+.esa{
+    position: absolute;
+    top:200px;
+    left:999px;
+}
+
+.minis{
+    position: absolute;
+   top: px;
+}
 .anterior{
-    position: relative;
+    
     left:135px;
-    top:-1215px;
+    top:-1180px;
     width:30px;
     height:30px;
     border-radius:50px;
@@ -143,9 +161,9 @@
     
 }
 .siguiente{
-    position: relative;
+   
     left:950px;
-    top:-1215px;
+    top:-1180px;
     width:30px;
     height:30px;
     border-radius:50px;
@@ -161,9 +179,9 @@ width:150px;
 height:80px;
 background-color: #0af5f5;
 border-radius:5px;
-position: relative;
+position: absolute;
 left:299px;
-top:-945px;
+top:-725px;
 }
 
 .miniatura1 img{
@@ -171,9 +189,9 @@ width:150px;
 height:80px;
 background-color: #ab0af5;
 border-radius:5px;
-position: relative;
+position: absolute;
 left:510px;
-top:-1030px;
+top:-810px;
 }
 
 .miniatura2 img{
@@ -181,9 +199,9 @@ width:150px;
 height:80px;
 background-color: #0af5f5;
 border-radius:5px;
-position: relative;
+position: absolute;
 left:720px;
-top:-1110px;
+top:-895px;
 }
 
 .activa{
@@ -256,65 +274,65 @@ top:-1110px;
     position: relative;
     left:210px;
     right:10px;
-    top:-900px;
+    top:-1x;
 }
 
 .manzana img{
     width:70px;
     height:70px;
     position: relative;
-    left:300px;
-    top:-1213px;
+    left:480px;
+    top:-373px;
 }
 .manzana1 img{
     width:70px;
     height:70px;
     position: relative;
-    left:350px;
-    top:-1287px;
+    left:530px;
+    top:-447px;
 }
 .manzana2 img{
     width:70px;
     height:70px;
     position: relative;
-    left:705px;
-    top:-1360px;
+    left:580px;
+    top:-523px;
 }
 .manzana3 img{
     width:70px;
     height:70px;
     position: relative;
     left:760px;
-    top:-1435px;
+    top:-540px;
 }
 .manzana4 img{
     width:70px;
     height:70px;
     position: relative;
-    left:487px;
-    top:-1569px;
+    left:702px;
+    top:-613px;
 }
 .manzana5 img{
     width:70px;
     height:70px;
     position: relative;
-    left:533px;
-    top:-1645px;
+    left:300px;
+    top:-685px;
 }
 .manzana6 img{
     width:70px;
     height:70px;
     position: relative;
-    left:575px;
-    top:-1720px;
+    left:360px;
+    top:-758px;
 }
 
 .personaje2 img{
     width:70px;
     height:80px;
     position: relative;
-    left:520px;
-    top:-1650px;
+    left:480px;
+    top:-750px;
 }
 
 .burbuja img{
@@ -322,14 +340,14 @@ top:-1110px;
     height:80px;
     position: relative;
     left:800px;
-    top:-2007px;
+    top:-750px;
 }
 .burbuja1 img{
     width:90px;
     height:95px;
     position: relative;
-    left:236px;
-    top:-1755px;
+    left:500px;
+    top:-1200px;
 }
 
 .burbujaSola img{
@@ -337,20 +355,20 @@ top:-1110px;
     height:95px;
     position: relative;
     left:350px;
-    top:-2150px;
+    top:-1000px;
 }
 .burbujaSola1 img{
     width:90px;
     height:95px;
     position: relative;
-    left:400px;
-    top:-1995px;
+    left:200px;
+    top:-1370px;
 }
 
 .contador2{
     position: relative;
     left:240px;
-    top:-1990px;
+    top:-1100px;
     font-size: 24px;
     font-weight: bold;
     color: #2652e0;
@@ -418,7 +436,7 @@ top:-1110px;
     position: relative;
     left:210px;
     right:10px;
-    top:-1925px;
+    top:-1px;
 }
 
 .diamante img{
@@ -426,28 +444,28 @@ top:-1110px;
     height:50px;
     position: relative;
     left:300px;
-    top:-2135px;
+    top:-210px;
 }
 .diamante1 img{
     width:53px;
     height:59px;
     position: relative;
     left:355px;
-    top:-2179px;
+    top:-255px;
 }
 .diamante2 img{
     width:56px;
     height:43px;
     position: relative;
     left:415px;
-    top:-2210px;
+    top:-285px;
 }
 .diamante3 img{
     width:56px;
     height:60px;
     position: relative;
     left:729px;
-    top:-2245px;
+    top:-325px;
 }
 
 .personaje3 img{
@@ -455,14 +473,14 @@ top:-1110px;
     height:90px;
     position: relative;
     left:600px;
-    top:-2595px;
+    top:-670px;
 }
 
 
 .contador3{
      position: relative;
     left:240px;
-    top:-3040px;
+    top:-1120px;
     font-size: 24px;
     font-weight: bold;
     color: #bd891a;
@@ -473,21 +491,21 @@ top:-1110px;
     height:100px;
     position: relative;
     left:250px;
-    top:-2615px;
+    top:-685px;
 }
 .nuve1 img{
     width:100px;
     height:100px;
     position: relative;
     left:600px;
-    top:-2870px;
+    top:-958px;
 }
 .nuve2 img{
     width:100px;
     height:100px;
     position: relative;
     left:750px;
-    top:-2750px;
+    top:-800px;
 }
 /*Animacion Nube*/
 .nuve img{
@@ -501,8 +519,8 @@ top:-1110px;
     animation: moverNuve1 7s ease infinite alternate;
 }
 @keyframes moverNuve1 {
-    0% {left:590px;}
-    100% {left:600px;}
+    0% {left:490px;}
+    100% {left:650px;}
 }
 .nuve2 img{
     animation: moverNuve2 6s ease infinite alternate;
@@ -515,11 +533,11 @@ top:-1110px;
 
 /*Animacion Personaje3*/
 .personaje3 img{
-    animation: moverPersonaje3 8s ease infinite alternate;
+    animation: moverPersonaje3 15s ease infinite alternate;
 }
 @keyframes moverPersonaje3 {
     0% {left:50%;}
-    100% {left:70%;}
+    100% {left:59%;}
 }
 
 /*Animacion Diamantes*/

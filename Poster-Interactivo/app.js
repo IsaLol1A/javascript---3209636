@@ -61,19 +61,19 @@ diamante.forEach(Item => {
 })
 
 
-/*Carrusel wAaAaAaaaaa*/
+/*Carrusel *////////////////////////////////////////////////////////////////////////////////////////
 
 //1.Variables
-/*
+
 const escenario = document.querySelectorAll('.escena');
-const siguientes = document.querySelector('.siguiente');
+const siguiente = document.querySelector('.siguiente');
 const anterior = document.querySelector('.anterior');
 const miniatura = document.querySelectorAll('.poio');
 
 let indice = 0;
 
 console.log(escenario);
-console.log(siguientes);
+console.log(siguiente);
 console.log(anterior);
 console.log(miniatura);
 
@@ -84,9 +84,35 @@ function mostrarEscenario(i) {
         escenario[j].classList.remove("activa")
     }
     escenario[i].classList.add("activa");
+
+    indice = i;
 }
 
-/* mostrarEscenario(2); */
+ mostrarEscenario(1); 
 
+ //Funcion anterior
+ anterior.addEventListener('click', () => {
+    indice = indice - 1;
+    if(indice < 0){
+        indice = escenario.length -1; //Para ir a la ultima imagen
+    }
+    console.log(indice);
+    mostrarEscenario(indice);
+})
 
-//3. Eventos
+//Funcion siguiente
+siguiente.addEventListener('click', () => {
+    indice = indice + 1;
+    if(indice > 2){
+        indice = 0; //Para ir a la primera imagen
+    }
+    console.log(indice);
+    mostrarEscenario(indice);
+})
+/*Funcion miniaturas
+miniatura.forEach(min => {
+    min.addEventListener('click', () => {
+        mostrarEscenario(i)
+})
+
+})*/
