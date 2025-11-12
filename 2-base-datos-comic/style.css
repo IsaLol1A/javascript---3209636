@@ -4,40 +4,45 @@
 body{
     background-color: rgb(0, 0, 0);
     margin:0;
-    color: white;
+  
 }
 .portada{
-    height:500px;
-    right:300px ;
-    background-color: brown;
+    height:100%;
+    width: 100%;
+    background-image: url(img/portada.png);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content: space-around;}
+    justify-content: space-around;
+    background-size: cover;
+    background-repeat: no-repeat;}
 
 
 .letra{
    display: flex;
-   flex-direction:column;
-   align-items: center;}
+  align-items: flex-start;
+flex-direction: column;}
 
 .letra h1{
-    font-size: 50px;
-}
+    font-size: 54px;
+    margin:200px 700px 50px 100px;}
 
 .letra div{
-color: white;}
+color: white;
+margin:0 700px 30px 100px;
+align-items: flex-start;}
 
 .letra button{
     margin:20px;
     color: rgb(255, 255, 255);
     display: flex;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(177, 27, 27);
     border:none;
     padding: 20px 30px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s;}
+    transition: background-color 0.3s;
+    margin:0 700px 100px 100px;;}
 
 .letra button:hover{
      background-color: rgb(255, 255, 255);
@@ -45,13 +50,39 @@ color: white;}
 
 .info{
     width:2000px;
-height:160px;
-    background-color: rgb(56, 56, 56);
-}
+height:150px;
+    background-color: rgb(56, 56, 56);}
 
 .letras{
 display:flex;
 flex-direction: column;
 margin: 0 0 0 20px;
-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);}
+
+
+.Episodios{
+    margin: 70px 0 0 20px;
+    color: white;}
+    
+.esos div{
+    width:300px;
+    height:200px;
+    background-color:brown;
+    margin: 0 20px 0 20px;
+     border-radius: 5px;}
+
+.esos{
+       display: flex;
+       justify-content: space-between;}
+
+.esos p{
+    font-size: 14px;
+    display: flex;
+    margin: 160px 0 0 10px ;
+    color: white;}
+
+@media (min-width 768px){
+    .letra div{
+      
+    }
 }
