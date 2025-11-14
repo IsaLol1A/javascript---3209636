@@ -3,7 +3,7 @@ let comic = {
   "sinopsis": "La aventura de un heroe, que por sus malas desiciones enfrentara las acciones de sus actos",
   "year": 2025,
   "autores": ["isabel Sofia", "Luna Rivera", "Miguel Noreña", "Alexis Chica"],
-  "personajes": ["Sir Leon", "Elvira", "Ninove", "Las brujas del alba", "Rey", "Reina", "Consejero", "Cristobal Colon"],
+  "personajes": ["Sir Leon", "Elvira", "Ninove", "Las brujas del alba", "Rey", "Reina", "Consejero", "Sirvienta" "Cristobal Colon"],
   "genero": ["Fantasia", "Aventura", "Drama", "Accion"],
   "portada": "http://www.example.com",
   "escenas": [
