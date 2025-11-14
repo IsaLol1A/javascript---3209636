@@ -1,9 +1,20 @@
 let comic = {
   "nombreComic": "Cenizas de Honor",
-  "sinopsis": "La aventura de un heroe, que por sus malas desiciones enfrentara las acciones de sus actos",
+  "sinopsis": "En los últimos días del gran Imperio Romano, cuando los bárbaros atacaban las murallas y el mundo antiguo se derrumbaba, vivía un joven caballero llamado Sir León.Era famoso por su espada gigante, llamada Rompealbas, que podía levantar con una sola mano. Su familia era una de las más respetadas de la ciudad: todos lo admiraban por su valentía...hasta que un día, su honor se vino abajo y ahora enfrentara las consecuencias de sus actos.",
+
   "year": 2025,
+  
   "autores": ["isabel Sofia", "Luna Rivera", "Miguel Noreña", "Alexis Chica"],
-  "personajes": ["Sir Leon", "Elvira", "Ninove", "Las brujas del alba", "Rey", "Reina", "Consejero", "Sirvienta" "Cristobal Colon"],
+
+  "personajes": "Sir Leon",  
+  "personajes1": "Elvira",
+  "personajes2":  "Ninove",
+  "personajes3": "Las brujas del alba",
+  "personajes4": "Rey",
+  "personajes5": "Reina",
+  "personajes6": "Sirvienta",
+  "personajes7": "Cristobal C",
+  
   "genero": ["Fantasia", "Aventura", "Drama", "Accion"],
   "portada": "http://www.example.com",
   "escenas": [
