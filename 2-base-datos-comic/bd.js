@@ -3,22 +3,70 @@ let comic = {
   "sinopsis": "En los últimos días del gran Imperio Romano, cuando los bárbaros atacaban las murallas y el mundo antiguo se derrumbaba, vivía un joven caballero llamado Sir León.Era famoso por su espada gigante, llamada Rompealbas, que podía levantar con una sola mano. Su familia era una de las más respetadas de la ciudad: todos lo admiraban por su valentía...hasta que un día, su honor se vino abajo y ahora enfrentara las consecuencias de sus actos.",
 
   "year": 2025,
-  
   "autores": ["isabel Sofia", "Luna Rivera", "Miguel Noreña", "Alexis Chica"],
 
-  "personajes": "Sir Leon",  
-  "personajes1": "Elvira",
-  "personajes2":  "Ninove",
-  "personajes3": "Las brujas del alba",
-  "personajes4": "Rey",
-  "personajes5": "Reina",
-  "personajes6": "Sirvienta",
-  "personajes7": "Cristobal C",
+  "personajes": [
+    {
+      "nombre": "Sir Leon",
+      "imagen": "./img/caballero.png"
+    },
+    {
+      "nombre1": "Elvira",
+      "imagen1": "./img/elvira.png"
+    },
+    {
+      "nombre2": "Ninove",
+      "imagen2": "./img/ninove.png"
+    },
+    {
+      "nombre3": "Las brujas del alba",
+      "imagen3": "./img/brujas.png"
+    },
+    {
+      "nombre4": "Rey",
+      "imagen4": "./img/rey.png"
+    },
+    {
+      "nombre5": "Reina",
+      "imagen5": "./img/reina.png"
+    },
+    {
+      "nombre6": "Sirvienta",
+      "imagen6": "./img/sirvienta.png"
+    },
+    {
+      "nombre7": "Cristobal C",
+      "imagen7": "./img/consejero.png"
+    },
+  ],  
+
+  "episodios": [
+    {
+    "nombri": "Epi 1:  Las Primeras Civilizaciones",
+    "imageno":"./img/era 1.png"
+    },
+    {
+    "nombri": "Epi 2: La Antigüedad Clásica",
+    "imageno":"./img/era 2.png"
+    },
+    {
+    "nombri":  "Epi 3: La Edad Media",
+    "imageno":"./img/era 3.png"
+    },
+    {
+    "nombri": "Epi 4: La Revolución Industrial",
+    "imageno":"./img/era 4.png"
+    },
+    {
+    "nombri": "Epi 5: La Era Digital",
+    "imageno":"./img/era 5.png"
+    },
+],
   
   "genero": ["Fantasia", "Aventura", "Drama", "Accion"],
-  "portada": "http://www.example.com",
-  "escenas": [
+  "imagenesP": "img/portada",
 
+  "escenas": [
     { "id": 1,
       "name": "Molecule Man",
       "age": 29,

@@ -17,3 +17,19 @@ Era famoso por su espada gigante, llamada Rompealbas, que podía levantar con un
 mano. Su familia era una de las más respetadas de la ciudad: todos lo admiraban por su
 valentía
 ...hasta que un día, su honor se vino abajo y ahora enfrentara las consecuencias de sus actos.
+
+<div> <img src="./img/era 1.png" alt=""><p>
+${comic.episodios}</p></div>
+
+<div> <img src="./img/era 3.png" alt=""><p>
+${comic.episodios1}</p></div>
+
+<div> <img src="./img/era 2.png" alt=""><p>
+${comic.episodios2}</p></div>
+
+<div> <img src="./img/era 5.png" alt=""><p>
+${comic.episodios3}</p></div>
+
+<div> <img src="./img/era 4.png" alt=""><p>
+${comic.episodios4}</p></div>
+
