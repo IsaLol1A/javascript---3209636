@@ -10,19 +10,18 @@ console.log(infoEpisodios)
 
 //Modificar el contenido de info general del comic
 
-infoPortada.innerHTML = `
-<h1> CENIZAS DE HONOR</h1>
+infoPortada.innerHTML = `  
+<h1>${comic.nombreComic}</h1>
 <div>${comic.sinopsis}</div>
 <button>Ver Comic</button>
-`
 
+`
 infoInformacion.innerHTML = `
 <p>Genero: ${comic.genero.join (", ")}</p>
 <p>${comic.year}</p>
 <p>Autores: ${comic.autores.join (", ")}</p>
 `
-
-InfoPersonajes.innerHTML = `
+/* InfoPersonajes.innerHTML = `
 <div> <img src="./img/caballero.png" alt="">
     <p>${comic.personajes}</p></div>
 
@@ -46,38 +45,47 @@ InfoPersonajes.innerHTML = `
 
  <div> <img src="./img/consejero.png" alt="">
     <p>${comic.personajes}</p></div>
-`
+` */ 
+
+
 //Aqui vamos a mostrar las tarjetas de escenas
 
-console.log(comic.episodios)
-
-comic.episodios.forEach(episodios => {
+comic.episodios.forEach(epi => {
     const miCard = document.createElement("div")
-    miCard.classList.add("tarjeta-cap")
     miCard.innerHTML = `
-    <img src ="${episodios.imageno}" />
-    <p>${episodios.nombri}</p>
+    <img src ="${epi.imagen}"/>
+    <p>${epi.nombre}</p>
     `
-    infoEpisodios.appendChild(miCard)
-
-    console.log(episodios.nombri)
-    
+     infoEpisodios.appendChild(miCard)
+    console.log(epi.nombre)
 });
 
-infoEpisodios.innerHTML = `
+comic.personajes.forEach(perso => {
+    const miCard = document.createElement("div")
+/*     miCard.classList.add("tarjeta-cap")*/    
+    miCard.innerHTML = `
+    <img src ="${perso.imagen}"/>
+    <p>${perso.nombre}</p>
+    `
+     InfoPersonajes.appendChild(miCard)
+    console.log(perso.nombre)
+});
+///////////////////////////////////////
+
+
+/* infoEpisodios.innerHTML = `
 <div> <img src="./img/era 1.png" alt=""><p>
 ${comic.episodios}</p></div>
 
 <div> <img src="./img/era 3.png" alt=""><p>
-${comic.episodios1}</p></div>
+${comic.episodios}</p></div>
 
 <div> <img src="./img/era 2.png" alt=""><p>
-${comic.episodios2}</p></div>
+${comic.episodios}</p></div>
 
 <div> <img src="./img/era 5.png" alt=""><p>
-${comic.episodios3}</p></div>
+${comic.episodios}</p></div>
 
 <div> <img src="./img/era 4.png" alt=""><p>
-${comic.episodios4}</p></div>
-`
-
+${comic.episodios}</p></div>
+` */
