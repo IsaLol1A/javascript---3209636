@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+    background-image: url(./img/WhatsApp\ Image\ 2025-11-25\ at\ 2.13.38\ PM.jpeg);
+}
+
+.pantalla{
+    width:800px;
+    height:500px;
+background-color: brown;
+margin: 0 0 0 250px;
+}
+
+.descripcion{
+    margin: 0 280px 0 250px;
+    color: white;
+}
