@@ -1,0 +1,23 @@
+body{
+    background-color: blue;
+    background-image: url(./img/WhatsApp\ Image\ 2025-11-25\ at\ 2.13.38\ PM.jpeg);
+}
+
+.personaje img{
+    width:500px;
+    height:500px;
+    margin: 0 0 0 420px;
+    border-radius: 15px;
+}
+
+.informacion h1{
+color: white;
+display:flex;
+justify-content: space-around;
+}
+.informacion p{
+    color: white;
+    margin: 0 300px 0 300px;
+    display: flex;
+    justify-content: space-around;
+}
