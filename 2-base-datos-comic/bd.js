@@ -8,34 +8,42 @@ let comic = {
 
   "personajes": [
     {
+      "id":1,
       "nombre": "Sir Leon",
       "imagen": "./img/caballero.png"
     },
     {
+      "id":2,
       "nombre": "Elvira",
       "imagen": "./img/elvira.png"
     },
     {
+      "id":3,
       "nombre": "Ninove",
       "imagen": "./img/ninove.png"
     },
     {
+      "id":4,
       "nombre": "Brujas",
       "imagen": "./img/brujas.png"
     },
     {
+      "id":5,
       "nombre": "Rey",
       "imagen": "./img/rey.png"
     },
     {
+      "id":6,
       "nombre": "Reina",
       "imagen": "./img/reina.png"
     },
     {
+      "id":7,
       "nombre": "Sirvienta",
       "imagen": "./img/sirvienta.png"
     },
     {
+      "id":8,
       "nombre": "Cristobal C",
       "imagen": "./img/consejero.png"
     },
@@ -43,22 +51,27 @@ let comic = {
 
   "episodios": [
     {
+      "id":1,
     "nombre": "Epi 1:  Las Primeras Civilizaciones",
     "imagen":"./img/era 1.png"
     },
     {
+      "id":2,
     "nombre": "Epi 2: La Antigüedad Clásica",
     "imagen":"./img/era 2.png"
     },
     {
+      "id":3,
     "nombre":  "Epi 3: La Edad Media",
     "imagen":"./img/era 3.png"
     },
     {
+      "id":4,
     "nombre": "Epi 4: La Revolución Industrial",
     "imagen":"./img/era 4.png"
     },
     {
+      "id":5,
     "nombre": "Epi 5: La Era Digital",
     "imagen":"./img/era 5.png"
     },

@@ -6,12 +6,28 @@ body{
     margin:0;
   
 }
+
+.equisde{
+    color: white;
+    font-size:20px;
+    display: flex;
+   
+}
+.equisde p{
+     margin: 35px 40px 0 10px;
+}
+.equisde h3{
+position: relative;
+top:10px;
+left:-770px;
+}
+
 .portada{
     height:100%;
     width: 100%;
     background-image: url(img/portada.png);
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column;
     justify-content: space-around;
     background-size: cover;

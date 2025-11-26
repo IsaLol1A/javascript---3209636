@@ -53,8 +53,13 @@ infoInformacion.innerHTML = `
 comic.episodios.forEach(epi => {
     const miCard = document.createElement("div")
     miCard.innerHTML = `
+    <a class="capitulo" href="../3-escenario-video/capitulo.html?id=
+    ${epi.id}">
+
     <img src ="${epi.imagen}"/>
     <p>${epi.nombre}</p>
+
+    </a>
     `
      infoEpisodios.appendChild(miCard)
     console.log(epi.nombre)
@@ -64,8 +69,13 @@ comic.personajes.forEach(perso => {
     const miCard = document.createElement("div")
 /*     miCard.classList.add("tarjeta-cap")*/    
     miCard.innerHTML = `
+    <a class="personaje" href="../3-escenario-personaje/personaje.html?id=
+    ${perso.id}">
+
     <img src ="${perso.imagen}"/>
     <p>${perso.nombre}</p>
+
+    </a>
     `
      InfoPersonajes.appendChild(miCard)
     console.log(perso.nombre)
