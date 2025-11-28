@@ -1,4 +1,4 @@
-let comic = {
+export let comic = {
   "nombreComic": "CENIZAS DE HONOR",
   "sinopsis": "En los últimos días del gran Imperio Romano, cuando los bárbaros atacaban las murallas y el mundo antiguo se derrumbaba, vivía un joven caballero llamado Sir León.Era famoso por su espada gigante, llamada Rompealbas, que podía levantar con una sola mano. Su familia era una de las más respetadas de la ciudad: todos lo admiraban por su valentía...hasta que un día, su honor se vino abajo y ahora enfrentara las consecuencias de sus actos.",
 

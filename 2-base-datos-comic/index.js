@@ -1,3 +1,5 @@
+import { comic } from "./bd.js"
+
 const infoPortada = document.querySelector (".letra")
 const infoInformacion = document.querySelector (".letras")
 const InfoPersonajes = document.querySelector (".personajes")
