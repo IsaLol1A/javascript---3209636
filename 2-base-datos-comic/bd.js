@@ -52,7 +52,6 @@ export let comic = {
   "episodios": [
     {
       "id":1,
-      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet voluptatum temporibus quia velit. Omnis dolores modi harum placeat quibusdam nihil molestias, labore quod, dolorem repellendus reprehenderit optio assumenda magni.",
     "nombre": "Epi 1:  Las Primeras Civilizaciones",
     "imagen":"./img/era 1.png"
     },

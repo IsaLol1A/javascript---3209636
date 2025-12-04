@@ -101,3 +101,7 @@ ${comic.episodios}</p></div>
 <div> <img src="./img/era 4.png" alt=""><p>
 ${comic.episodios}</p></div>
 ` */
+
+/////////////////////////////////////////////////
+
+

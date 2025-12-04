@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>RUNAS CODEX</title>
 
     <link rel="stylesheet" href="./style.css">
 
@@ -14,23 +14,65 @@
 <body>
 <div class="todo">
 
-    <div class="portada">
-        <div class="equisde">
-            <h3>RUNAS CODEX</h3>
-        <p>Tienda</p>
-        <p>Marca</p>
-        <p>Contacto</p>
+
+      <div class="portada">
+
+
+       <div class="carrusel-container">
+    <div class="carrusel">
+        <div class="slide active">
+            <img src="./img/2025-12-02 (1).png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img/2025-12-02.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img/portada.png" alt="">
+        </div>
     </div>
 
+    <!-- Botones -->
+    <button class="btn prev"><</button>
+    <button class="btn next">></button>
+</div>
+
+<script>
+let index = 0;
+const slides = document.querySelectorAll('.slide');
+
+function showSlide(i) {
+    index = (i + slides.length) % slides.length;
+    document.querySelector('.carrusel').style.transform = `translateX(-${index * 100}%)`;
+}
+
+document.querySelector('.next').onclick = () => showSlide(index + 1);
+document.querySelector('.prev').onclick = () => showSlide(index - 1);
+
+// cambio automático cada 5s
+setInterval(() => showSlide(index + 1), 5000);
+</script>
+
+    </div> 
+
+    <div class="equisde">
+            <h3>RUNAS CODEX</h3>
+        <p>Episodios</p>
+        <p>Personajes</p>
+        <p>Marca</p>
+</div>
+
+ 
+ 
         <div class="letra">
+            
             <h1> CENIZAS DE HONO</h1>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eum ullam vitae minus in aperiam,
                 perferendis dolorem cum, ipsa deserunt accusamus sunt, beatae neque cumque laborum quisquam iste
                 incidunt doloribus! </div>
-            <button>Ver Comic</button>
-
 
         </div>
+
+         <a href="./epi.html" class="olo">Ver Comic</a>
     </div>
 
 
@@ -89,7 +131,7 @@
 
     <div class="esos">
 
-        <!-- <div> <img src="./img/era 1.png" alt="">
+         <!-- <div> <img src="./img/era 1.png" alt="">
             <p>
                 Epi 1: Titulo del Capitulo</p>
         </div>
@@ -119,6 +161,7 @@
     <script type="module" src="./index.js"></script>
 
     </div>
+
 
 </body>
 

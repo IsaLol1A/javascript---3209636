@@ -21,3 +21,23 @@ justify-content: space-around;
     display: flex;
     justify-content: space-around;
 }
+
+.boton{
+ text-decoration: none;
+    margin:10px 1259px 70px 5px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-color: rgb(177, 27, 27);
+    border:none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+.boton:hover{
+     background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.15);
+}
