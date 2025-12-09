@@ -72,8 +72,24 @@ body{
     position: absolute;
     top: 10px;
     left: 820px;
+
+    opacity: 0;
+    transform: translateY(10px);
+    animation: aparecer 0.10s ease-out forwards;
    
 }
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .equisde p{
      margin: 35px 40px 0 1px;
 }
@@ -101,20 +117,56 @@ left: 100;
 .letra h1{
     font-size: 54px;
     margin:200px 700px 50px 100px;
-color: brown;}
+color: brown;
 
+opacity: 0;
+    transform: translateY(10px);
+    animation: aparecer 0.8s ease-out forwards;
+}
 .letra div{
 color: white;
 margin:0 700px 30px 100px;
-align-items: flex-start;}
+align-items: flex-start;
+
+opacity: 0;
+    transform: translateY(10px);
+    animation: aparecer 0.15s ease-out forwards;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 .olo{
     position: absolute;
     top:470px;
     left:95px;
     color: antiquewhite;
+
+    opacity: 0;
+    transform: translateY(10px);
+    animation: aparecer 0.8s ease-out forwards;
 }
 
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 .olo{
 text-decoration: none;
@@ -223,6 +275,25 @@ color: rgb(255, 255, 255);}
     display: flex;
        justify-content:center;
        
+}
+
+@media (max-width: 768px){
+    .personajes{
+       overflow-x: scroll;
+       overflow-y: hidden;
+    }
+    .personajes div:hover{
+    transform: scale(1.01);
+}
+
+.personajes::-webkit-scrollbar {
+    height: 10px;
+    
+}
+.personajes::-webkit-scrollbar-thumb {
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+}
 }
 
 .personajes div:hover{

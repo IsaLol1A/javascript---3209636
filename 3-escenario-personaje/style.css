@@ -8,6 +8,38 @@ body{
     height:500px;
     margin: 0 0 0 420px;
     border-radius: 15px;
+    
+    opacity: 0;
+    transform: translateY(10px);
+    animation: aparecer 0.35s ease-out forwards;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.informacion{
+    opacity: 0;
+    transform: translateY(10px);
+    animation: aparecer 0.45s ease-out forwards;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .informacion h1{
@@ -24,7 +56,7 @@ justify-content: space-around;
 
 .boton{
  text-decoration: none;
-    margin:10px 1259px 70px 5px;
+    margin:10px 1259px 10px 5px;
     color: rgb(255, 255, 255);
     display: flex;
     background-color: rgb(177, 27, 27);

@@ -1,6 +1,7 @@
 body{
     background-color: aqua;
     background-image: url(./img/WhatsApp\ Image\ 2025-11-25\ at\ 2.13.38\ PM.jpeg);
+        
 }
 
 .pantalla{
@@ -13,11 +14,25 @@ margin: 0 0 0 250px;
 .descripcion{
     margin: 0 280px 0 250px;
     color: white;
+
+    opacity: 0;
+    transform: translateY(10px);
+    animation: aparecer 0.45s ease-out forwards;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .boton{
     text-decoration: none;
-    margin:10px 1259px 70px 5px;
+    margin:10px 1259px 15px 5px;
     color: rgb(255, 255, 255);
     display: flex;
     background-color: rgb(177, 27, 27);
