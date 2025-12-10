@@ -168,6 +168,7 @@ opacity: 0;
     }
 }
 
+
 .olo{
 text-decoration: none;
     margin:10px 12px 70px 5px;
@@ -184,9 +185,12 @@ text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transform: scale(1.15);
-}
+} 
+
 
 .letra button{
+    position: absolute;
+   left: 10000px;
     margin:20px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -197,6 +201,7 @@ text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
     margin:0 700px 100px 100px;;}
+    
 
 
 .info{
@@ -294,7 +299,42 @@ color: rgb(255, 255, 255);}
     background-color:rgb(255, 255, 255);
     border-radius: 10px;
 }
+
+
+.equisde{
+    display: none;
 }
+
+.letra{
+    position: absolute;
+    left: 160px;
+    top:-130px;
+}
+
+.letra h1{
+    font-size: 50px;
+    margin:200px 200px 50px 10px;
+}
+.letra div{
+    margin:-150px 100px 30px 10px;
+    position: absolute;
+    left:10px;
+    top:500px;
+    font-size:20px;
+}
+.letra button{
+ display: none;
+}
+
+.olo{
+    position: absolute;
+    top:470px;
+    left:190px;
+   
+}
+
+}
+
 
 .personajes div:hover{
      background-color:rgb(232, 62, 62);
@@ -344,14 +384,21 @@ color: rgb(255, 255, 255);}
     flex-direction: column;
     align-items: center;
 }
+
+.Episodios h3{
+    display: flex;
+    justify-content:center;
+    font-size: 30px;
+}
+
 .esos img{
- margin: 20px 0 40px 0;
+ margin: 10px 0 40px 0;
 }
 .esos div{
      margin: 20px 0 40px 0;
 }
 .esos p{
-       margin: -30px 0px 0 10px ;
+       margin: -40px 0px 0 10px ;
 }
     }
 

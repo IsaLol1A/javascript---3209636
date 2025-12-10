@@ -48,3 +48,26 @@ margin: 0 0 0 250px;
     color: rgb(0, 0, 0);
     transform: scale(1.15);
 }
+
+@media (max-width: 768px){
+
+    .pantalla{
+     width:700px;
+    height:400px;
+    margin: 0;
+    }
+
+    .pantalla video{
+        width:700px;
+        height:400px;
+    }
+
+    .descripcion{
+        margin: 0 20px;
+    }
+
+    .boton{
+      padding: 10px 60px 10px 30px;
+        
+    }
+}

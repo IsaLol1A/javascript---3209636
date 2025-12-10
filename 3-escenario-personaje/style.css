@@ -73,3 +73,23 @@ justify-content: space-around;
     color: rgb(0, 0, 0);
     transform: scale(1.15);
 }
+
+@media (max-width: 768px){
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .personaje img{
+        width: 300px;
+        height: 300px;
+        margin: 0 0 0 200px;
+    }
+
+    .informacion p{
+       margin: 0 90px 200px 90px;
+    }
+
+    .boton{
+        padding: 10px 60px 10px 30px;
+    }
+}
