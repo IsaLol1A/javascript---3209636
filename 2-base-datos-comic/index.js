@@ -71,8 +71,7 @@ comic.personajes.forEach(perso => {
     const miCard = document.createElement("div")
 /*     miCard.classList.add("tarjeta-cap")*/    
     miCard.innerHTML = `
-    <a class="personaje" href="../3-escenario-personaje/personaje.html?id=
-    ${perso.id}">
+    <a class="personaje" href="../3-escenario-personaje/personaje.html?id=${perso.id}">
 
     <img src ="${perso.imagen}"/>
     <p>${perso.nombre}</p>

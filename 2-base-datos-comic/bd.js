@@ -47,6 +47,11 @@ export let comic = {
       "nombre": "Cristobal C",
       "imagen": "./img/consejero.png"
     },
+    {
+      "id":9,
+      "nombre": "Veronica",
+      "imagen": "./img/caballero.png"
+    },
   ],  
 
   "episodios": [
