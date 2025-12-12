@@ -53,8 +53,10 @@ body{
     font-size: 20px;
 }
 
-.prev { left: 10px; }
-.next { right: 10px; }
+.prev { left: 10px; 
+z-index: 2;}
+.next { right: 10px; 
+z-index:2;}
 
 .btn:hover {
     background: rgba(0,0,0,0.7);
@@ -110,13 +112,13 @@ left:-760px;
   align-items: flex-start;
 flex-direction: column;
 position: absolute;
-top: 15px;
+top: -40px;
 left: 100;
 }
 
 .letra h1{
     font-size: 54px;
-    margin:200px 700px 50px 100px;
+    margin:200px 500px 50px 100px;
 color: brown;
 
 opacity: 0;
@@ -125,7 +127,7 @@ opacity: 0;
 }
 .letra div{
 color: white;
-margin:0 700px 30px 100px;
+margin:0 500px 30px 100px;
 align-items: flex-start;
 
 opacity: 0;
@@ -148,7 +150,7 @@ opacity: 0;
 
 .olo{
     position: absolute;
-    top:470px;
+    top:520px;
     left:95px;
     color: antiquewhite;
 
@@ -282,27 +284,34 @@ color: rgb(255, 255, 255);}
        
 }
 
-@media (max-width: 768px){
-    .personajes{
-       overflow-x: scroll;
-       overflow-y: hidden;
-    }
-    .personajes div:hover{
-    transform: scale(1.01);
+@media (max-width: 1079px) and (min-width: 768px){
+   .personajes{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+.personajes div{
+    margin: 20px 0 20px 0;
+    line-clamp: 2;
 }
 
-.personajes::-webkit-scrollbar {
-    height: 10px;
-    
-}
-.personajes::-webkit-scrollbar-thumb {
-    background-color:rgb(255, 255, 255);
-    border-radius: 10px;
+.Episodios h3{
+    display: flex;
+    justify-content:center;
+    font-size: 30px;
 }
 
-
-.equisde{
-    display: none;
+.esos{
+    flex-direction: column;
+    align-items: center;
+}
+.esos img{
+ margin: 10px 0 40px 0;
+}
+.esos div{
+     margin: 20px 0 40px 0;
+}
+.esos p{
+       margin: -40px 0px 0 10px ;
 }
 
 .letra{
@@ -320,7 +329,7 @@ color: rgb(255, 255, 255);}
     position: absolute;
     left:10px;
     top:500px;
-    font-size:20px;
+    font-size:18px;
 }
 .letra button{
  display: none;
@@ -365,24 +374,29 @@ color: rgb(255, 255, 255);}
      border-radius: 5px 5px 0 0;}
 
 
-@media (max-width: 783px){
+@media (max-width: 873px) and (min-width: 393px){
     .personajes img{
-    width:70px;
-    height:50px;
+    width:90px;
+    height:70px;
      border-radius: 5px;
+    margin: 5px 5px 0 5px;
     }
     .personajes div{
         width:100px;
-    height:90px;
+    height:110px;
     }
 .personajes p{
-       margin: 10px 0 0 0 ;
+       margin: 0px 0 0 0 ;
 }
-
+.personajes{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
 
 .esos{
     flex-direction: column;
     align-items: center;
+   
 }
 
 .Episodios h3{
@@ -399,6 +413,30 @@ color: rgb(255, 255, 255);}
 }
 .esos p{
        margin: -40px 0px 0 10px ;
+}
+
+.letra{
+    position: absolute;
+    left: 160px;
+    top:-130px;
+}
+
+.letra h1{
+    font-size: 40px;
+    margin:200px 200px 50px -45px;
+}
+.letra div{
+    margin:-150px 100px 50px -45px;
+    position: absolute;
+    left:10px;
+    top:500px;
+    font-size:17px;
+}
+
+.olo{
+    position: absolute;
+    top:470px;
+    left:130px;
 }
     }
 
